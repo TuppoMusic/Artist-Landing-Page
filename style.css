@@ -1,3 +1,4 @@
+```css
 /* =========================
    GENERAL PAGE
    ========================= */
@@ -6,6 +7,8 @@ body {
     margin: 0;
     background-color: #000000;
     color: #ffffff;
+
+    /* CHANGE THE FONT HERE */
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -15,9 +18,14 @@ body {
    ========================= */
 
 .container {
-    max-width: 700px;
+    max-width: 600px;
+
+    /* Centers the content horizontally */
     margin: 0 auto;
+
+    /* Space around the page */
     padding: 60px 20px;
+
     text-align: center;
 }
 
@@ -28,9 +36,15 @@ body {
 
 .cover {
     width: 500px;
+
+    /* Prevents the cover from overflowing on phones */
     max-width: 100%;
+
     height: auto;
+
     display: block;
+
+    /* Space below the cover */
     margin: 0 auto 40px auto;
 }
 
@@ -41,8 +55,12 @@ body {
 
 h1 {
     font-size: 32px;
+
+    /* 400 = regular */
     font-weight: 400;
+
     letter-spacing: 1px;
+
     margin: 0 0 12px 0;
 }
 
@@ -53,36 +71,74 @@ h1 {
 
 .release {
     font-size: 17px;
+
     font-weight: 300;
-    margin: 0 0 45px 0;
+
+    margin: 0 0 50px 0;
 }
 
 
 /* =========================
-   STREAMING LINKS
+   LINK SECTIONS
    ========================= */
 
-.streaming {
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-    flex-wrap: wrap;
-    margin-bottom: 70px;
+.links-section {
+    margin-bottom: 50px;
 }
 
 
-.streaming a {
+/* Section titles:
+   Listen / Social / Contact */
+
+h2 {
+    font-size: 13px;
+
+    font-weight: 400;
+
+    text-transform: uppercase;
+
+    letter-spacing: 3px;
+
+    margin-bottom: 20px;
+}
+
+
+/* =========================
+   LINKS
+   ========================= */
+
+.links {
+    display: flex;
+
+    justify-content: center;
+
+    /* Allows links to wrap on small screens */
+    flex-wrap: wrap;
+
+    gap: 12px;
+}
+
+
+.links a {
     color: #ffffff;
+
     text-decoration: none;
-    font-size: 16px;
+
+    font-size: 15px;
+
     border: 1px solid #ffffff;
-    padding: 12px 20px;
+
+    padding: 10px 16px;
+
     transition: 0.2s;
 }
 
 
-.streaming a:hover {
+/* What happens when you hover over a link */
+
+.links a:hover {
     background-color: #ffffff;
+
     color: #000000;
 }
 
@@ -96,18 +152,17 @@ h1 {
 }
 
 
-.contact p {
-    font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 15px;
+.contact a {
+    color: #ffffff;
+
+    text-decoration: none;
+
+    font-size: 15px;
 }
 
 
-.contact a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 15px;
+.contact a:hover {
+    text-decoration: underline;
 }
 
 
@@ -117,7 +172,11 @@ h1 {
 
 footer {
     text-align: center;
+
     color: #666666;
+
     font-size: 12px;
+
     padding-bottom: 30px;
 }
+```
