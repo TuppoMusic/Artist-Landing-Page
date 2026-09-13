@@ -1,1 +1,123 @@
+/* =========================
+   GENERAL PAGE
+   ========================= */
 
+body {
+    margin: 0;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* =========================
+   MAIN CONTAINER
+   ========================= */
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+
+/* =========================
+   EP COVER
+   ========================= */
+
+.cover {
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 40px auto;
+}
+
+
+/* =========================
+   TITLE
+   ========================= */
+
+h1 {
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0 0 12px 0;
+}
+
+
+/* =========================
+   RELEASE DATE
+   ========================= */
+
+.release {
+    font-size: 17px;
+    font-weight: 300;
+    margin: 0 0 45px 0;
+}
+
+
+/* =========================
+   STREAMING LINKS
+   ========================= */
+
+.streaming {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+}
+
+
+.streaming a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    border: 1px solid #ffffff;
+    padding: 12px 20px;
+    transition: 0.2s;
+}
+
+
+.streaming a:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+
+/* =========================
+   CONTACT
+   ========================= */
+
+.contact {
+    margin-bottom: 70px;
+}
+
+
+.contact p {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+
+.contact a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
+/* =========================
+   FOOTER
+   ========================= */
+
+footer {
+    text-align: center;
+    color: #666666;
+    font-size: 12px;
+    padding-bottom: 30px;
+}
