@@ -1,1 +1,1 @@
-Artist Landing Page for my solo project
+Artist Landing Page for my music project
