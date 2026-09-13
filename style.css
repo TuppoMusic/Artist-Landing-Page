@@ -82,7 +82,7 @@ h1 {
    ========================= */
 
 .links-section {
-    margin-bottom: 50px;
+    margin-bottom: 45px;
 }
 
 
@@ -102,43 +102,60 @@ h2 {
 }
 
 
+
 /* =========================
-   LINKS
+   ICON LINKS
    ========================= */
 
-.links {
+.icon-links {
     display: flex;
 
     justify-content: center;
 
-    /* Allows links to wrap on small screens */
-    flex-wrap: wrap;
+    align-items: center;
 
-    gap: 12px;
+    gap: 28px;
+
+    flex-wrap: wrap;
 }
 
 
-.links a {
-    color: #ffffff;
+/* Individual clickable icon */
+
+.icon-links a {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    width: 42px;
+
+    height: 42px;
 
     text-decoration: none;
-
-    font-size: 15px;
-
-    border: 1px solid #ffffff;
-
-    padding: 10px 16px;
 
     transition: 0.2s;
 }
 
 
-/* What happens when you hover over a link */
+/* The actual logo */
 
-.links a:hover {
-    background-color: #ffffff;
+.icon-links img {
+    width: 30px;
 
-    color: #000000;
+    height: 30px;
+
+    display: block;
+
+    transition: 0.2s;
+}
+
+
+/* Slightly enlarge the icon when hovering */
+
+.icon-links a:hover img {
+    transform: scale(1.15);
 }
 
 
@@ -147,7 +164,7 @@ h2 {
    ========================= */
 
 .contact {
-    margin-bottom: 70px;
+    margin-bottom: 80px;
 }
 
 
