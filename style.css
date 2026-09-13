@@ -34,7 +34,7 @@ body {
    ========================= */
 
 .cover {
-    width: 500px;
+    width: 400px;
 
     /* Prevents the cover from overflowing on phones */
     max-width: 100%;
@@ -69,7 +69,7 @@ h1 {
    ========================= */
 
 .release {
-    font-size: 17px;
+    font-size: 18px;
 
     font-weight: 300;
 
@@ -90,9 +90,9 @@ h1 {
    Listen / Social / Contact */
 
 h2 {
-    font-size: 13px;
+    font-size: 15px;
 
-    font-weight: 400;
+    font-weight: 500;
 
     text-transform: uppercase;
 
